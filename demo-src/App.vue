@@ -290,6 +290,7 @@ small {
 
 .item:hover {
   border-color: rgba(0,0,0,.87);
+  transform: scale(1.1)
 }
 
 .fa-icon {
