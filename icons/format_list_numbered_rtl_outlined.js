@@ -1,0 +1,13 @@
+import Icon from 'vue-awesome/components/Icon'
+
+Icon.register({
+  format_list_numbered_rtl_outlined: {
+    paths: [
+      {
+        d: 'M18 17h2v.5h-1v1h1v.5h-2v1h3v-4h-3v1zm1-9h1V4h-2v1h1v3zm-1 3h1.8L18 13.1v.9h3v-1h-1.8l1.8-2.1V10h-3v1zM2 5h14v2H2V5zm0 12h14v2H2v-2zm0-6h14v2H2v-2z'
+      }
+    ],
+    width: '24',
+    height: '24'
+  }
+})

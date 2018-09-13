@@ -1,0 +1,7 @@
+.*
+assets
+build
+demo
+demo-src
+public
+*.config.js

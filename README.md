@@ -1,21 +1,15 @@
-# vue-awesome-material
+# Material Icons for Vue-Awesome
 
-## Project setup
-```
-npm install
-```
+Additional icon pack for Vue-Awesome, based on [Material Icons](https://material.io/tools/icons/).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+## Usage
+
+```bash
+$ npm i --save vue-awesome vue-awesome-material-icons
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+After importing and registering [Vue-Awesome](https://github.com/Justineo/vue-awesome) Icon component, introduce Material Icons by simply importing them:
 
-### Lints and fixes files
-```
-npm run lint
+```js
+import 'vue-awesome-material-icons/icons/high_quality'
 ```

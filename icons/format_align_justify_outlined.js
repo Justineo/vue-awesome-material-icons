@@ -1,0 +1,13 @@
+import Icon from 'vue-awesome/components/Icon'
+
+Icon.register({
+  format_align_justify_outlined: {
+    paths: [
+      {
+        d: 'M3 21h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18V7H3v2zm0-6v2h18V3H3z'
+      }
+    ],
+    width: '24',
+    height: '24'
+  }
+})

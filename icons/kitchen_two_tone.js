@@ -1,0 +1,24 @@
+import Icon from 'vue-awesome/components/Icon'
+
+Icon.register({
+  kitchen_two_tone: {
+    paths: [
+      {
+        opacity: '.3',
+        d: 'M8 5h2v3H8zm0 7h2v5H8z'
+      },
+      {
+        opacity: '.3',
+        d: 'M6 20h12v-9.02H6V20zm2-8h2v5H8v-5zM6 9h12V4H6v5zm2-4h2v3H8V5z'
+      },
+      {
+        d: 'M18 2.01L6 2a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.11-.9-1.99-2-1.99zM18 20H6v-9.02h12V20zm0-11H6V4h12v5z'
+      },
+      {
+        d: 'M8 5h2v3H8zm0 7h2v5H8z'
+      }
+    ],
+    width: '24',
+    height: '24'
+  }
+})
