@@ -171,6 +171,7 @@ h1 {
   border: none;
   border-bottom: 2px solid #ccc;
   outline: none;
+  border-radius: 0;
   text-align: center;
   transition: all .4s;
 }
@@ -236,7 +237,7 @@ small {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   margin: 0;
-  padding: 0;
+  padding: 0 2em;
   list-style-type: none;
 }
 
@@ -290,7 +291,7 @@ small {
 
 .item:hover {
   border-color: rgba(0,0,0,.87);
-  transform: scale(1.1)
+  transform: translateY(-3px);
 }
 
 .fa-icon {
