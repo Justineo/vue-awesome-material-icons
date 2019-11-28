@@ -8,8 +8,7 @@ if (env === 'prepare') {
         '@babel/preset-env',
         {
           targets: {
-            node: 'current',
-            browsers: false
+            node: 'current'
           }
         }
       ]

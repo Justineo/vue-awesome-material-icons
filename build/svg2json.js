@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import svgson, { stringify } from 'svgson-next'
+import { parse, stringify } from 'svgson'
 import Svgo from 'svgo'
 const svgo = new Svgo({
   multipass: true,
@@ -24,7 +24,7 @@ Promise.all(
       return
     }
 
-    let { attributes, children } = await svgson(data)
+    let { attributes, children } = await parse(data)
     let { width, height, viewBox } = attributes
     if (!(width && height)) {
       if (!viewBox) {
