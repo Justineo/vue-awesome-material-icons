@@ -32,7 +32,7 @@
     "rimraf": "^2.6.2",
     "socks-proxy-agent": "^4.0.1",
     "stringify-object": "^3.2.2",
-    "svgo": "^1.0.5",
+    "svgo": "^2.0.0",
     "svgson": "^4.0.0",
     "vue": "^2.6.10",
     "vue-awesome": "^4.0.2",
